@@ -1,0 +1,116 @@
+:root{
+    --main-color:#1098ad;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+}
+h2{
+    color: var(--main-color);
+    margin: 15px 0;
+}
+p ,li{
+    line-height: 40px;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-header{
+    background-color: rgb(213, 214, 214);
+    margin-bottom:50px ;
+    
+}
+.main-header h1{
+    color: var(--main-color);
+}
+
+.navigation a:link{
+    display: inline-block;
+    padding: 15px;
+    color: var(--main-color);
+    text-decoration: none;
+}
+.main-h2{
+   
+    position: relative;
+}
+.main-h2::after{
+    content: "Text";
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    background-color: yellow;
+}
+/* post */
+
+.post-imag{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 15px 0; 
+}
+
+.ou-el{
+    margin-left: 30px;
+    
+}
+
+.ou-el :first-child{
+    font-weight: bold;
+}
+
+.mdv-link{
+    color: var(--main-color);
+}
+
+.ul-li{
+    margin-left: 30px;
+}
+
+.last{
+    background-color: rgb(204, 200, 200);
+    width: 60%;
+    padding-left:30px ;
+    position: relative;
+}
+
+.last h4{
+   position: absolute;
+   left: 50%;
+   top: 10px;
+}
+
+.related{
+    padding-top:35px ;
+}
+
+.related li{
+    list-style: none;
+}
+
+.related li a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+
+.last{
+    border-top : var(--main-color) 5px solid;
+    border-bottom : var(--main-color) 5px solid;
+}
+
+.btn-like{
+    padding: 10px;
+    color: red;
+    background-color: aliceblue;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
